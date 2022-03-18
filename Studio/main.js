@@ -73,8 +73,17 @@ function change01(x){
     document.getElementById("span_8").classList.toggle("change__color__studio");
     document.getElementById("span_9").classList.toggle("change__color__studio");
     document.getElementById("span_10").classList.toggle("change__color__studio");
-    document.getElementById("span_11").classList.toggle("change__color__studio"); document.getElementById("span_5").classList.toggle("change__color__studio");
+    document.getElementById("span_11").classList.toggle("change__color__studio"); 
+    document.getElementById("span_5").classList.toggle("change__color__studio");
     document.getElementById("span_12").classList.toggle("change__color__studio");
+    document.getElementById("bg_1").classList.toggle("bg_white");
+    document.getElementById("bg_2").classList.toggle("bg_white");
+    document.getElementById("bg_3").classList.toggle("bg_white");
+    document.getElementById("bg_5").classList.toggle("bg_white");
+    document.getElementById("bg_4").classList.toggle("bg_white");
+    document.getElementById("bg_6").classList.toggle("bg_white");
+    
+
 
 
 };

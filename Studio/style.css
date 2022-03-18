@@ -240,6 +240,7 @@ header .header__nav nav ul li a.dropdown_item_change{
 }
 #carousel .carousel-caption h1{
     font-size: 100px;
+    /* width: 75%; */
 }
 #carousel ul li.active{
     background-color: #ff6e65 !important;
@@ -487,7 +488,7 @@ header .header__nav nav ul li a.dropdown_item_change{
       color: #000000;
   }
   #get_started.change__bg{
-      background-color: #ffffff;
+      background-color: #f8f9ff;
   }
   #get_started .box__img .time ul li i span.change__color__studio{
       color: #000000;
@@ -501,3 +502,58 @@ header .header__nav nav ul li a.dropdown_item_change{
   #get_started .box__img .content h4.change_h4{
       color: #000000 !important;
   }
+ 
+  #get_started .box__img .thumb.bg_white{
+      background-color: #ffffff;
+  }
+  #flex__box .background__flex{
+      background-image: url('./img/bg_flex.jpg');
+      background-size: 100% 100%;
+  }
+  #flex__box .background__flex .thumb__flex .content__flex .flex__logo i{
+    font-size: 23px;
+    padding: 30px 30px;
+    border-radius: 50%;
+    background-color: #151e37;
+    color: #0d369f;
+
+  }
+  #flex__box .background__flex .thumb__flex .content__flex{
+      align-items: center;
+  }
+  #flex__box .background__flex .thumb__flex{
+     width: 85%;
+      background-color: #161c2d;
+      padding: 20px 10px;
+      margin-bottom: 40px;
+  }
+  #flex__box .background__flex .frame{
+      padding: 20px 10px;
+  }
+  #Numbers .content__numbers{
+      position: relative;
+  }
+  #Numbers .content__numbers h1::after{
+    content: "";
+    width: 68px;
+    height: 2px;
+    background: #b7b7b7;
+    position: absolute;
+    bottom: -25px;
+    left: 46%;
+  }
+  #Numbers .content__numbers h1::before{
+    content: "";
+    width: 68px;
+    height: 2px;
+    background: #b7b7b7;
+    position: absolute;
+    bottom: -14px;
+    left: 49%;
+  }
+
+  /* @media only screen and (max-width: 992px){
+    #flex__box .background__flex .box_x{
+    display: none;
+    }
+  }  */
