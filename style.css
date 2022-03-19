@@ -809,7 +809,7 @@ h3.title-main::after,
     box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
 }
    
-}
+
 
 #midle__content .main_middle2 {
  
@@ -829,6 +829,51 @@ h3.title-main::after,
     font-weight: 600;
     border-radius: 0 8px 8px 0;
     height: 40px;
+}
+#flex__box .background__flex{
+  background-image: url('./img/bg_flex.jpg');
+  background-size: 100% 100%;
+}
+#flex__box .background__flex .thumb__flex .content__flex .flex__logo i{
+font-size: 23px;
+padding: 30px 30px;
+border-radius: 50%;
+background-color: #151e37;
+color: #0d369f;
+
+}
+#flex__box .background__flex .thumb__flex .content__flex{
+  align-items: center;
+}
+#flex__box .background__flex .thumb__flex{
+ width: 85%;
+  background-color: #161c2d;
+  padding: 20px 10px;
+  margin-bottom: 40px;
+}
+#flex__box .background__flex .frame{
+  padding: 20px 10px;
+}
+#Numbers .content__numbers{
+  position: relative;
+}
+#Numbers .content__numbers h1::after{
+content: "";
+width: 68px;
+height: 2px;
+background: #b7b7b7;
+position: absolute;
+bottom: -25px;
+left: 46%;
+}
+#Numbers .content__numbers h1::before{
+content: "";
+width: 68px;
+height: 2px;
+background: #b7b7b7;
+position: absolute;
+bottom: -14px;
+left: 49%;
 }
 
 
